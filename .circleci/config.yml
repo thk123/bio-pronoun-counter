@@ -48,7 +48,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python -m unittest tests
+            python -m unittest test.test_bio_contains_pronouns
 
       - store_artifacts:
           path: test-reports
