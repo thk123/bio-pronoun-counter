@@ -26,7 +26,6 @@ def get_handle_from_bio(api, handle):
     try:
         res = api.UsersLookup(screen_name=handle)
         if len(res) == 1:
-            print(res[0].description)
             yield res[0].description
 
     except Exception as e:
