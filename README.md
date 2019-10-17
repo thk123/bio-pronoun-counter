@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/thk123/bio-pronoun-counter.svg?style=svg)](https://circleci.com/gh/thk123/bio-pronoun-counter)
+
 # bio-pronoun-counter
 Given a list of Twitter handles, counts the number that have their pronouns in their bio.
 
